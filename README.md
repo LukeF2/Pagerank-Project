@@ -2,7 +2,7 @@
 
 In this project, I created a simple search engine for the website <https://www.lawfareblog.com>, which provides legal analysis on US national security issues.
 
-This project calculates the pagerank vector of small-scale web graphs The final PageRank vector 𝜋 contains the PageRank score for each page, which represents the probability that a random surfer will land on a given page. This allows us to return only the most important results from this website in our search engine.
+This project aims to calculates the Pagerank Vector 𝜋 of small-scale web graphs. The final PageRank vector contains the PageRank score for each page, which represents the probability that a random surfer will land on a given page. This allows us to return only the most important results from this website in our search engine.
 
 
 ## Background
