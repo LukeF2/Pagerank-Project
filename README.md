@@ -517,7 +517,8 @@ Your goal should be to discover what topics that www.lawfareblog.com considers t
     INFO:root:rank=7 pagerank=6.3623e-04 url=www.lawfareblog.com/paper-hearing-experts-debate-digital-contact-tracing-and-coronavirus-privacy-concerns
     INFO:root:rank=8 pagerank=6.1252e-04 url=www.lawfareblog.com/house-subcommittee-voices-concerns-over-us-management-coronavirus
     INFO:root:rank=9 pagerank=6.0191e-04 url=www.lawfareblog.com/livestream-house-oversight-committee-holds-hearing-government-coronavirus-response
-
+   ```
+   ```
     $ python3 pagerank.py --data=data/lawfareblog.csv.gz --search_query='trump'
     INFO:root:rank=0 pagerank=5.7827e-03 url=www.lawfareblog.com/trump-asks-supreme-court-stay-congressional-subpeona-tax-returns
     INFO:root:rank=1 pagerank=5.2340e-03 url=www.lawfareblog.com/document-trump-revokes-obama-executive-order-counterterrorism-strike-casualty-reporting
@@ -529,7 +530,8 @@ Your goal should be to discover what topics that www.lawfareblog.com considers t
     INFO:root:rank=7 pagerank=3.7592e-03 url=www.lawfareblog.com/oral-argument-summary-qassim-v-trump
     INFO:root:rank=8 pagerank=3.4510e-03 url=www.lawfareblog.com/dc-circuit-court-denies-trump-rehearing-mazars-case
     INFO:root:rank=9 pagerank=3.4486e-03 url=www.lawfareblog.com/second-circuit-rules-mazars-must-hand-over-trump-tax-returns-new-york-prosecutors
-
+   ```
+   ```
     $ python3 pagerank.py --data=data/lawfareblog.csv.gz --search_query='iran'
     INFO:root:rank=0 pagerank=4.5748e-03 url=www.lawfareblog.com/praise-presidents-iran-tweets
     INFO:root:rank=1 pagerank=4.4175e-03 url=www.lawfareblog.com/how-us-iran-tensions-could-disrupt-iraqs-fragile-peace
@@ -557,6 +559,8 @@ Your goal should be to discover what topics that www.lawfareblog.com considers t
     INFO:root:rank=7 pagerank=2.8741e-01 url=www.lawfareblog.com/our-comments-policy
     INFO:root:rank=8 pagerank=2.8741e-01 url=www.lawfareblog.com/upcoming-events
     INFO:root:rank=9 pagerank=2.8741e-01 url=www.lawfareblog.com/topics
+   ```
+   ```
    $ python3 pagerank.py --data=data/lawfareblog.csv.gz --filter_ratio=0.2
    INFO:root:rank=0 pagerank=3.4697e-01 url=www.lawfareblog.com/trump-asks-supreme-court-stay-congressional-subpeona-tax-returns
     INFO:root:rank=1 pagerank=2.9522e-01 url=www.lawfareblog.com/livestream-nov-21-impeachment-hearings-0
@@ -603,6 +607,8 @@ Your goal should be to discover what topics that www.lawfareblog.com considers t
     INFO:root:rank=7 pagerank=2.8741e-01 url=www.lawfareblog.com/our-comments-policy
     INFO:root:rank=8 pagerank=2.8741e-01 url=www.lawfareblog.com/upcoming-events
     INFO:root:rank=9 pagerank=2.8741e-01 url=www.lawfareblog.com/topics
+   ```
+   ```
    $ python3 pagerank.py --data=data/lawfareblog.csv.gz --verbose --alpha=0.99999
    DEBUG:root:computing indices
     DEBUG:root:computing values
@@ -629,7 +635,9 @@ Your goal should be to discover what topics that www.lawfareblog.com considers t
     INFO:root:rank=7 pagerank=2.8859e-01 url=www.lawfareblog.com/our-comments-policy
     INFO:root:rank=8 pagerank=2.8859e-01 url=www.lawfareblog.com/upcoming-events
     INFO:root:rank=9 pagerank=2.8859e-01 url=www.lawfareblog.com/litigation-documents-related-appointment-matthew-whitaker-acting-attorney-general
-       $ python3 pagerank.py --data=data/lawfareblog.csv.gz --verbose --filter_ratio=0.2
+   ```
+   ```
+   $ python3 pagerank.py --data=data/lawfareblog.csv.gz --verbose --filter_ratio=0.2
    DEBUG:root:computing indices
     DEBUG:root:computing values
     DEBUG:root:i=0 residual=1.2609769105911255
@@ -664,7 +672,9 @@ Your goal should be to discover what topics that www.lawfareblog.com considers t
     INFO:root:rank=7 pagerank=1.4958e-01 url=www.lawfareblog.com/todays-headlines-and-commentary-1962
     INFO:root:rank=8 pagerank=1.4367e-01 url=www.lawfareblog.com/cyberlaw-podcast-mistrusting-google
     INFO:root:rank=9 pagerank=1.4240e-01 url=www.lawfareblog.com/lawfare-podcast-bonus-edition-gordon-sondland-vs-committee-no-bull
-       $ python3 pagerank.py --data=data/lawfareblog.csv.gz --verbose --filter_ratio=0.2 --alpha=0.99999
+   ```
+   ```
+   $ python3 pagerank.py --data=data/lawfareblog.csv.gz --verbose --filter_ratio=0.2 --alpha=0.99999
    DEBUG:root:computing indices
     DEBUG:root:computing values
     DEBUG:root:i=0 residual=1.2827692031860352
@@ -726,32 +736,3 @@ Your goal should be to discover what topics that www.lawfareblog.com considers t
     INFO:root:rank=9 pagerank=5.1245e-02 url=www.lawfareblog.com/livestream-house-armed-services-committee-holds-hearing-priorities-missile-defense
    ```
 
-1. Ensure that all your changes to the `pagerank.py` and `README.md` files are committed to your repo and pushed to github.
-
-1. Get at least 5 stars on your repo.
-   (You may trade stars with other students in the class.)
-
-   > **NOTE:**
-   > 
-   > Recruiters use github profiles to determine who to hire,
-   > and pagerank is used to rank user profiles and projects.
-   > Links in this graph correspond to who has starred/followed who's repo.
-   > By getting more stars on your repo, you'll be increasing your github pagerank, which increases the likelihood that recruiters will hire you.
-   > To see an example, [perform a search for `data mining`](https://github.com/search?q=data+mining).
-   > Notice that the results are returned "approximately" ranked by the number of stars,
-   > but because "some stars count more than others" the results are not exactly ranked by the number of stars.
-   > (I asked you not to fork this repo because forks are ranked lower than non-forks.)
-   >
-   > In some sense, we are doing a "dual problem" to data mining by getting these stars.
-   > Recruiters are using data mining to find out who the best people to recruit are,
-   > and we are hacking their data mining algorithms by making those algorithms select you instead of someone else.
-   >
-   > If you're interested in exploring this idea further, here's a python tutorial for extracting GitHub's social graph: <https://www.oreilly.com/library/view/mining-the-social/9781449368180/ch07.html> ; if you're interested in learning more about how recruiters use github profiles, read this Hacker News post: <https://news.ycombinator.com/item?id=19413348>.
-
-1. Submit the url of your repo to sakai.
-
-   The assignment is worth 8 points.
-   1. There are 6 parts to the output above.  (4 in Task1 and 2 in Task2.)
-   1. Each part that you get incorrect will result in -2 points.  (But you cannot go negative.)
-   1. Another way of phrasing this is that the first 2 parts you complete are not worth any points,
-      but each part after that is worth 2 points.
