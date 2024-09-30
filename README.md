@@ -1411,9 +1411,6 @@ Your goal should be to discover what topics that www.lawfareblog.com considers t
     INFO:root:rank=9 pagerank=5.1245e-02 url=www.lawfareblog.com/livestream-house-armed-services-committee-holds-hearing-priorities-missile-defense
    ```
 
-
-   ```
-
 1. Ensure that all your changes to the `pagerank.py` and `README.md` files are committed to your repo and pushed to github.
 
 1. Get at least 5 stars on your repo.
